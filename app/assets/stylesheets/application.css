@@ -190,3 +190,20 @@ h2 {
 .product-description p {
 	padding-bottom:5px;
 }
+
+
+.iphone {
+	margin-top:80px;
+	width:100%;
+	height:800px;
+}
+
+.iphone-description {
+	padding-top:200px;
+}
+
+.iphone h2 {
+	font-weight: 400;
+	font-size: 60px;
+	text-shadow:0 -2px 2px rgba(0,0,0,0.6)
+}
