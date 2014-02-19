@@ -61,6 +61,10 @@ table {
 	border-spacing: 0;
 }
 
+.clear {
+	clear:both;
+}
+
 body {
 	color:#fff;
 	font-family: "myriad-pro",sans-serif;
@@ -70,13 +74,13 @@ body {
 .container {
 	width:1024px;
 	margin:0 auto;
-	padding-top:60px;
 }
 
 .header-container {
 	background-color: #e31469;
 	border-bottom:1px solid #909396;
 	height:750px;
+	padding-top:60px;
 }
 
 header {
@@ -115,7 +119,74 @@ h2 {
 }
 
 .information {
-	margin-top:180px;
+	margin-top:120px;
 	color:#e31469;
 	z-index: 500;
+}
+
+.product-info {
+	border-radius: 3px;
+	background-color: #fff;
+	box-shadow: 0px 1px 4px 0.5px #ccc;
+	width: 320px;
+	height: 300px;
+	text-align: center;
+	float:left;
+	margin-right:32px;
+}
+
+.product-info-last {
+	border-radius: 3px;
+	background-color: #fff;
+	box-shadow: 0px 1px 4px 0.5px #ccc;
+	width: 320px;
+	height: 300px;
+	text-align: center;
+	float: right;
+	width:320px;
+}
+
+.product-row {
+	margin-bottom:20px;
+	color:#fff;
+}
+
+#movies {
+	background-color: #6f2a8e;
+}
+
+#explore {
+	background-color: #ee2375;
+}
+
+#shop {
+	background-color: #f8981d;
+}
+
+#read {
+	background-color: #004990;
+}
+
+#play {
+	background-color: #e84c3d;
+}
+
+#inform {
+	background-color: #8dc63f;
+}
+
+.product-description {
+	padding:35px 20px;
+}
+
+.product-description img {
+	height:65px;
+}
+
+.product-description h2 {
+	padding:15px 0 20px 0;
+}
+
+.product-description p {
+	padding-bottom:5px;
 }
