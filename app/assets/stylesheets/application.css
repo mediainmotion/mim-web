@@ -76,8 +76,6 @@ a {
 	color: #e31469;
 }
 
-
-
 .container {
 	width:1024px;
 	margin:0 auto;
@@ -120,7 +118,6 @@ h2 {
 }
 
 .divider-inverted {
-	
 	border-bottom: 2px solid #e31469;
 	opacity: 0.8;
 	width:100px;
@@ -210,14 +207,12 @@ h2 {
 	padding-bottom:5px;
 }
 
-
 .iphone {
 	margin-top:80px;
 	height:800px;
 	min-width: 1024px;
 	border-top:1px solid #ccc;
 	border-bottom:1px solid #ccc;
-
 }
 
 .background {
@@ -241,7 +236,6 @@ h2 {
   left: 0;
   z-index: 200;
   text-align: left;
-	
 }
 
 .iphone h2 {
